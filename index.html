@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <nav>
+    <div class="left">
+      <a href="/">FLORA</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="amenzeedebiribilly@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: About-me -->
+    <section class="about-me-section">
+      <div class="text">
+        <h2>Hi, I'm Flora</h2>
+        <p> I am a web developer specializing in creating responsive, user-friendly websites. 
+            I enjoy solving challenges and crafting designs that deliver great user experiences.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/download.jfif" alt="flora profile">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I specialize in building responsive, efficient, and scalable web applications using the latest technologies. Here’s what I bring to the table:      </div>
+     
+  <div class="skill-box">
+    <h3>HTML</h3>
+    <p>Proficient in structuring content for the web with modern HTML5.</p>
+    <div class="progress-bar">
+      <span style="width: 90%;"></span>
+    </div>
+  </div>
+
+  <div class="skill-box">
+    <h3>CSS</h3>
+    <p>Expert in styling, animations, and layouts using CSS3.</p>
+    <div class="progress-bar">
+      <span style="width: 85%;"></span>
+    </div>
+  </div>
+
+  <div class="skill-box">
+    <h3>JavaScript</h3>
+    <p>Skilled in ES6+, functional programming, and interactive web features.</p>
+    <div class="progress-bar">
+      <span style="width: 80%;"></span>
+    </div>
+  </div>
+</section>
+
+      
+      </div>
+    </section>
+
+<!-- SECTION 3: Projects -->
+<section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="project-gallery">
+      <div class="project-card">
+        <img src="images/portfolio.jfif" alt="Project 1">
+        <h3>Portfolio Website</h3>
+        <p>A clean and responsive personal portfolio site built with HTML, CSS, and JavaScript.</p>
+        <a href="index.html" class="project-link">View Project</a>
+      </div>
+      
+      <div class="project-card">
+        <img src="images/images (1).jfif" alt="Weather App">
+        <h3>Weather App</h3>
+        <p>A real-time weather application using APIs and JavaScript.</p>
+        <a href="#" class="project-link">View Project</a>
+    </div>
+      
+      <div class="project-card">
+        <img src="images/ecommerce.jfif" alt="Project 3">
+        <h3>E-commerce Platform</h3>
+        <p>A functional online store with a product catalog, cart, and payment gateway.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+    </div>
+  </section>
+
+<!-- SECTION 3: My coding journey -->
+<section id="testimony" class="coding-section">
+      <h2>Coding Experience</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/kikuo.jfif">
+          <p>Flora</p>
+        </div>
+
+        <div class="text">
+           <p>
+            "Learning to code has been a rewarding yet challenging experience. When I first tackled HTML and CSS, I encountered numerous obstacles—missed semicolons, broken layouts, and unresponsive elements. There were moments I felt like giving up, but each challenge helped me grow. Over time, I learned that coding is about patience, problem-solving, and persistence. With every line of code, I’ve become more confident in my ability to navigate the complexities of programming."
+        </p>    </div>
+    </section>
+
+    <!-- SECTION 5: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+            Have a question, collaboration idea, or simply want to connect? I’d love to hear from you.
+            Feel free to reach out, and I’ll get back to you as soon as possible. Let’s make something great together!
+           </div>
+
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Edebiri-Billy Amenze Flora. All rights reserved.</p>
+    <button id="backToTop">Back to Top</button>
+</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
